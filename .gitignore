@@ -1,0 +1,31 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+myenv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm IDE files
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Trained model files (Optional, if you don't want to track them)
+trained_model/
+
+# Results folder
+results/
+
+# Temporary files
+*.tmp
+*.bak
+
+# Other files you might want to ignore
+*.json
