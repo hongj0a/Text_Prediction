@@ -1,0 +1,10 @@
+myenv
+__pycache__/
+*.pyc
+*.log
+results/
+*.tar
+*.tar.gz
+*.zip
+.env
+.git

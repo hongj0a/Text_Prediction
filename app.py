@@ -166,6 +166,10 @@ def predict():
         app.logger.error(f"Error during prediction: {e}")
         return jsonify({'error': 'An error occurred during prediction'}), 599
 
+@app.route("/health")
+def health():
+    return {"status": "ok"}, 200
+
 
 # 메인 실행
 if __name__ == "__main__":
